@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ham-conet</title>
+  <link rel="icon" href="download.jpeg">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #b8b8dc;
+  color: #2e2c2c;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  background: linear-gradient(to bottom, #001f3f, #003f7f);
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Presidents Section */
+.presidents-section {
+  padding: 40px 20px;
+}
+
+.presidents-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Presidents Grid */
+.presidents-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* President Card */
+.president-card {
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.president-card:hover {
+  transform: scale(1.25);
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.president-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.president-card h3 {
+  font-size: 1.5rem;
+  margin: 15px 0 10px;
+}
+
+.president-card p {
+  font-size: 1rem;
+  margin: 0 10px 20px;
+  color: #555;
+}
+/* Ensure links do not change color */
+.president-card a {
+  text-decoration: none; /* Remove the underline */
+  color: inherit; /* Inherit the parent element's color */
+}
+
+/* Ensure the text color remains black */
+.president-card a h3, 
+.president-card a p {
+  color: black;
+}
+  </style>
+</head>
+<body>
+  <header class="hero-section">
+    <h1>Ham-conet</h1>
+    <p>A website dedicated to the world's most powerful leaders.</p>
+  </header>
+
+  <section class="presidents-section">
+    <h2>World Leaders</h2>
+    <div class="presidents-grid">
+      <!-- Example: President 1 -->
+      <div class="president-card">
+        <a href="georgewashington.html">
+        <img src="george washin.jpeg" alt="George Washington">
+        <h3>George Washington</h3>
+        <p>The first President of the United States (1789–1797). Known as the "Father of His Country."</p>
+      </a>
+      </div>
+      <!-- President 2 -->
+      <div class="president-card">
+        <a href="nelsonmandela.html">
+        <img src="nelson mandela.jpeg" alt="Nelson Mandela">
+        <h3>Nelson Mandela</h3>
+        <p>The first black President of South Africa (1994–1999). A global icon for peace and reconciliation.</p>
+      </a>
+      </div>
+      <!-- President 3 -->
+      <div class="president-card">
+        <a href="barackobama.html">
+        <img src="barackobama.jpeg" alt="Barack Obama">
+        <h3>Barack Obama</h3>
+        <p>The 44th President of the United States (2009–2017). The first African-American president.</p>
+      </a>
+      </div>
+      <div class="president-card">
+        <a href="vladimirputin.html">
+        <img src="putin.webp" alt="Vladimir Putin">
+        <h3>Vladimir Putin</h3>
+        <p>President of Russia (2000–2008, 2012–present). A prominent global political figure.</p>
+      </a>
+      </div>
+      <div class="president-card">
+        <a href="angelmarkel.html">
+        <img src="angelamarkel.jpeg" alt="Angela Merkel">
+        <h3>Angela Merkel</h3>
+        <p>Chancellor of Germany (2005–2021). Known for her steady leadership in Europe.</p>
+      </a>
+      </div>
+      <div class="president-card">
+        <a href="joebidden.html">
+        <img src="joebiden.jpeg" alt="Joe Biden">
+        <h3>Joe Biden</h3>
+        <p>46th President of the United States (2021–present). Focuses on unity and rebuilding alliances.</p>
+      </a>
+      </div>
+      <div class="president-card">
+        <a href="fidelcastro.html">
+        <img src="fidelcastro.jpeg" alt="Fidel Castro">
+        <h3>Fidel Castro</h3>
+        <p>Leader of Cuba (1959–2008). A central figure in the Cuban Revolution.</p>
+      </a>
+      </div>
+      <div class="president-card">
+        <a href="goldamier.html">
+        <img src="goldamier.jpeg" alt="Golda Meir">
+        <h3>Golda Meir</h3>
+        <p>Prime Minister of Israel (1969–1974). One of the first female heads of government.</p>
+      </a>
+      </div>
+      <div class="president-card">
+        <a href="frankwalter.html">
+        <img src="frankwalter.jpeg" alt="Frank-Walter Steinmeier">
+        <h3>Frank-Walter Steinmeier</h3>
+        <p>President of Germany (2017–present). Promotes democracy and multilateralism.</p>
+      </a>
+      </div>
+    </div>
+  </section>
+    </div>
+  </section>
+</body>
+</html>
