@@ -1,0 +1,137 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background: url('OIP.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* Blur effect for the container */
+  .login-container {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Form */
+  .login-form h2 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .input-group label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1rem;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  .input-group input:focus + label,
+  .input-group input:not(:placeholder-shown) + label {
+    top: -10px;
+    font-size: 0.8rem;
+    color: #00ff7f;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff7f;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    background-color: #32cd32;
+  }
+  
+  a {
+    color: #00ff7f;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  /* Options container for Remember Me and Forgot Password */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .remember-me input {
+    margin-right: 8px;
+    accent-color: #00ff7f; /* Checkbox color */
+  }
+  
+  .forgot-password {
+    color: #00ff7f;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  .register-container{
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+  }
+  
+  
